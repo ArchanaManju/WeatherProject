@@ -1,0 +1,52 @@
+.mask-custom {
+	backdrop-filter: contrast(140%) brightness(100%) saturate(100%) sepia(50%) hue-rotate(0deg) grayscale(0%) invert(0%)
+		blur(0px);
+	mix-blend-mode: lighten;
+	background: rgba(161, 44, 199, 0.31);
+	opacity: 1;
+}
+.pagetitle {
+	text-align: center;
+}
+.container {
+	color: rgb(2, 198, 247);
+}
+
+.card-body {
+	padding-top: 20px;
+}
+.card-title {
+	font-size: 45px;
+}
+.bg-image {
+	background-repeat: no-repeat, no-repeat;
+}
+.col {
+	font-size: 28px;
+	font-family: fantasy;
+}
+.form-control {
+	border: 1px solid;
+	float: left;
+	margin: 1px;
+	padding: 10px 3px;
+	/*setting width for each and every card element as well as -10px for removing the margin width for 5 elements*/
+	width: calc(100% / 4 - 50px);
+}
+.p-3 {
+	font-size: 20px;
+	margin-right: 5em;
+}
+.status_now {
+	text-indent: 15px;
+}
+.form-label {
+	font-size: 20px;
+}
+
+button {
+	display: inline-block;
+	padding: 0px 50px 0px 50px;
+	background-color: rgb(128, 201, 250);
+	border-radius: 20px;
+}
